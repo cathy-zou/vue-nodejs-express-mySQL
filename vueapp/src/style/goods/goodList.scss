@@ -1,0 +1,18 @@
+.good-list-container{
+  .good-title{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  .price-container{
+    padding-top: 10px;
+    .list-price{
+      color: red;
+      font-size: 14px;
+    }
+    .list-del-price{
+      text-decoration: line-through;
+    }
+  }
+}

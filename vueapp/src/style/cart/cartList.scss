@@ -1,0 +1,91 @@
+.cart-container{
+  .cart-list{
+    .cart-item{
+      background-color: #fff;
+      height: 160px;
+      border: 1px solid $solid-color;
+      border-top: none;
+      .cart-header{
+        border-bottom: 1px solid $solid-color;
+        height: 40px;
+        padding-top: 10px;
+        text-align: left;
+        padding-left: 20px;
+      }
+      .cart-body{
+        position: relative;
+        padding-bottom: 62px;
+        .cart-image-item{
+          position: absolute;
+          height: 120px;
+          width: 120px;
+          border-right: 1px solid $solid-color;
+          text-align: center;
+          padding-top: 10px;
+          img{
+            width: 100px;
+            height: 100px;
+          }
+        }
+        .cart-info{
+          padding-left: 130px;
+          text-align: left;
+          h6{
+            height: 30px;
+            font-size: 14px;
+            line-height: 30px;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+            padding: 0 10px;
+          }
+          p{
+            padding: 0 10px;
+            color: #ccc;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+          }
+          .price-container{
+            padding: 0 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &>span{
+              color: red;
+              i{
+                margin-right: 5px;
+                color: #000;
+              }
+            }
+            .yd-spinner{
+              margin: 5px 5px 0 0;
+              float: right;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer.order-item{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: $box-shadow;
+    border-top: 1px solid $solid-color;
+    background-color: #fff;
+    height: 58px;
+    padding: 15px 10px 0 15px;
+    z-index: 200;
+    text-align: left;
+    &>span{
+      font-size: 22px;
+      margin-left: 15px;
+    }
+    .yd-btn{
+      float: right;
+    }
+  }
+}

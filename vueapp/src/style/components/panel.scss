@@ -1,0 +1,18 @@
+.panel-container{
+  background-color: #fff;
+  border: 1px solid $solid-color;
+  text-align: left;
+  margin-bottom: 10px;
+  .panel-header{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-bottom: 1px solid $solid-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .panel-body{
+    min-height: 10px;
+  }
+}

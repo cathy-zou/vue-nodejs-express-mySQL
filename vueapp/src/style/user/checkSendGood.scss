@@ -1,0 +1,32 @@
+.check-send-good-container{
+  .yd-list-mes{
+    .yd-list-title{
+      padding-bottom: 15px;
+    }
+    .yd-list-other{
+      .price-container{
+        padding-left: 10px;
+        .list-price{
+          color: red;
+          font-size: 16px;
+          margin-right: 5px;
+        }
+        .list-del-price{
+          font-size: 14px;
+          text-decoration: line-through;
+        }
+      }
+      .btns-container{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        .yd-btn{
+          height: auto;
+          width: auto;
+          padding: 5px 10px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.fail-order-container{
+  background-color: #fff;
+  .fail-image{
+    height: 180px;
+    img{
+      width: 140px;
+      height: 140px;
+    }
+  }
+  .fail-tip{
+    padding: 10px;
+  }
+  .fail-order-btns{
+    span{
+      float: left;
+      width: 50%;
+      padding: 15px;
+      background-color: #fff;
+      border: 1px solid $solid-color;
+    }
+    .back-to-home{
+      color: red;
+    }
+  }
+}

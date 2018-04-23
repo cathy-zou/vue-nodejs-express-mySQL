@@ -1,0 +1,40 @@
+.good-info{
+  .good-price-container{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    .price-info{
+      padding: 10px;
+      .current-price{
+        font-size: 16px;
+        color: red;
+        margin-right: 5px;
+      }
+      .del-price{
+        color: #ccc;
+        text-decoration: line-through;
+      }
+      .delivery-free{
+        color: #ccc;
+        padding-top: 5px;
+        font-size: 12px;
+      }
+    }
+    .btns-group{
+      font-weight: bold;
+      font-size: 10px;
+    }
+  }
+  .good-des{
+    img{
+      width: 100%;
+    }
+  }
+  .yd-popup-content{
+    img{
+      width: 100%;
+    }
+  }
+}

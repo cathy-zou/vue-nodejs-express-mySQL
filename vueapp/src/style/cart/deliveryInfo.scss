@@ -1,0 +1,32 @@
+.delivery-info-container{
+  text-align: left;
+  padding: 10px;
+  .delivery-header{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    i{
+      font-weight: bold;
+    }
+    span{
+      color: $blue;
+      text-decoration: underline;
+    }
+  }
+  .delivery-body{
+    ul{
+      li{
+        background-color: #fff;
+        border: 1px solid $solid-color;
+        border-radius: 3px;
+        margin-bottom: 5px;
+        .delivery-info-header{
+          padding: 5px 0 5px 10px;
+          border-bottom: 1px solid $solid-color;
+        }
+      }
+    }
+  }
+}
